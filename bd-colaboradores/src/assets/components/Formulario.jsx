@@ -43,8 +43,6 @@ const Formulario = ({ colaboradores, setColaboradores, setAlerta }) => {
 
     return (
 
-
-
         <Form onSubmit={enviar}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <input type="text" placeholder="Nombre del colaborador" value={nombre} onChange={(e) => setNombre(e.target.value)}></input>
